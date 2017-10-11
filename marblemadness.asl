@@ -30,5 +30,6 @@ init
 startup
 {
 	settings.Add("dummy1", false, "ONLY FCEUX SUPPORTED ATM");
-	settings.Add("dummy2", false, "https://github.com/saturnin55/MarbleMadnessAutoSplitter");
+	settings.Add("dummy2", false, "Set 'Start Timer at' to '-6.65' in 'Edit Splits...'");
+	settings.Add("dummy3", false, "https://github.com/saturnin55/MarbleMadnessAutoSplitter");
 }
