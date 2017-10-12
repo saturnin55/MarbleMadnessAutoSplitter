@@ -26,7 +26,7 @@ Auto Splitter for Marble Madness NES
 - Go to "Edit Splits..." in LiveSplit
 - Click "Settings" to configure the autosplitter
   - **Note:** If for some reason LiveSplit does not automatically load the script, click "Browse...", navigate to "\LiveSplit\Components\" and select the appropriate script.
-- Set "Start Timer At" to "-6.65" so the timer starts exactly when you gain control of the marble.
+- Set "Start Timer At" to "-6.606" so the timer starts exactly when you gain control of the marble. (the third digit won't show up in the GUI once you save and come back but it's correctly saved in the .lss file)
   
 Here you can enable/disable the options for auto start, auto reset, and auto splitting.
 
