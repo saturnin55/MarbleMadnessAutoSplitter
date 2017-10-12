@@ -43,3 +43,17 @@
     - 32 : Select
     - 64 : B
     - 128 : A
+    
+- **``0x07f2`` : Death counter
+
+- **``0x004a`` : first and second digits of the score
+- **``0x004b`` : third and fourth digits of the score
+- **``0x004c`` : fifth and sixth digits of the score
+
+- **``0x0090``: X coordinate
+- **``0x0440``: Y coordinate
+
+- **``0x005b``: Stun timer
+    - 0 : not stunned
+    - any other value : frames remaining to stun condition
+    
