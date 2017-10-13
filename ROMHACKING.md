@@ -13,11 +13,13 @@
     - when a level is starting = 255  
     - will be set to the current level when going past the goal line
     - when going in some pipe (like the last one in Beginner) = 1
+    - 5 = ???, will stay at 5 sometimes after a win 
     
 - **`0x34` : level**
     - current level, changes when a new level is loaded.
     - is at 0 when in the menus (select # of players, enter name, control type)
     - when crossing the goal line, this is set to the current level (except for Practice because it's already at 0)
+    - 6 = victory scene
     
 - **`0x8b` : end_of_level**
     - 1 : level is not finished
