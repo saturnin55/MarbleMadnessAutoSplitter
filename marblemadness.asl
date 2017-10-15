@@ -39,13 +39,16 @@ reset
 	//	3) skip a level
 	else if(current.level > (old.level + 1))
 		return(true);
+	//	4) time up!
+	else if(current.end_of_level == 0 && current.status == 255 && current.timer == 0)	
+		return(true);
 	else
 		return(false);
 }
 
 startup
 {
-	settings.Add("main", false, "Marble Madness AutoSplitter 0.10");
+	settings.Add("main", false, "Marble Madness AutoSplitter 0.12");
 	settings.Add("main3", false, "--https://github.com/saturnin55/MarbleMadnessAutoSplitter", "main");
 	settings.Add("main2", false, "--Don't forget to set 'Start Timer at' to '-6.606' in 'Edit Splits...'", "main");
 	settings.Add("main1", false, "--Currently only support FCEUX emulator", "main");
