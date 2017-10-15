@@ -11,7 +11,7 @@ Auto Splitter for Marble Madness NES
 
 - Automatically start the timer when you start a run. Timer starts after selecting the Control Type
 - Automatically reset the timer when you restart the game (or load a savestate to before Control Type selection)
-- Automatically split when the marble crosses a goal line
+- Automatically split when the marble crosses a goal line or when a level loads (runner's choice)
 
 ## Installation
 
